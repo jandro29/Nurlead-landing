@@ -279,6 +279,75 @@ export default function Component() {
             <p className="30px text-white">Text support</p>
           </div>
         </div>
+
+        <div className="flex w-[100%] justify-center mt-[70px]">
+          <div className="flex flex-col w-[60%]">
+            <div className="bg-[#e79ffc] rounded-2xl aspect-video relative overflow-hidden row-start-1 row-end-4 h-[110px]">
+              <div className="grid grid-cols-2 h-[100%] bg-[#9C3A7F]">
+                <div className="flex items-center bg-[#6D2E59] rounded-r-2xl">
+                  <div className="ml-8 text-white text-[35px] semibold">
+                    Item 01
+                  </div>
+                </div>
+                <div className="flex items-center justify-center bg-[#9C3A7F]">
+                  <div className="text-white text-[25px]">Text...</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#e79ffc] rounded-2xl aspect-video relative overflow-hidden row-start-1 row-end-4 h-[110px]">
+              <div className="grid grid-cols-2 h-[100%] bg-[#9C3A7F]">
+                <div className="flex items-center bg-[#6D2E59] rounded-r-2xl">
+                  <div className="ml-8 text-white text-[35px] semibold">
+                    Item 02
+                  </div>
+                </div>
+                <div className="flex items-center justify-center bg-[#9C3A7F]">
+                  <div className="text-white text-[25px]">Text...</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#e79ffc] rounded-2xl aspect-video relative overflow-hidden row-start-1 row-end-4 h-[110px]">
+              <div className="grid grid-cols-2 h-[100%] bg-[#9C3A7F]">
+                <div className="flex items-center bg-[#6D2E59] rounded-r-2xl">
+                  <div className="ml-8 text-white text-[35px] semibold">
+                    Item 03
+                  </div>
+                </div>
+                <div className="flex items-center justify-center bg-[#9C3A7F]">
+                  <div className="text-white text-[25px]">Text...</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#e79ffc] rounded-2xl aspect-video relative overflow-hidden row-start-1 row-end-4 h-[110px]">
+              <div className="grid grid-cols-2 h-[100%] bg-[#9C3A7F]">
+                <div className="flex items-center bg-[#6D2E59] rounded-r-2xl">
+                  <div className="ml-8 text-white text-[35px] semibold">
+                    Item 04
+                  </div>
+                </div>
+                <div className="flex items-center justify-center bg-[#9C3A7F]">
+                  <div className="text-white text-[25px]">Text...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*Section comentarios*/}
+
+      <section className="bg-[#FBDCFF] py-20">
+        <div className="container mx-auto px-4">
+
+          <div className="w-[100%] flex justify-center">
+            <h4 className="text-[70px] font-semibold text-[#9435AE]">
+              Sub Heading
+            </h4>
+          </div>
+        </div>
       </section>
     </div>
   );
