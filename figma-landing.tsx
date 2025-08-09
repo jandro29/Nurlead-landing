@@ -5,33 +5,52 @@ export default function Component() {
       <section className="relative min-h-screen bg-gradient-to-br from-[#e79ffc] to-[#9435ae] overflow-hidden">
         <div className="container mx-auto px-4 py-20 relative">
           {/* Floating Badges */}
-          <div className="absolute top-20 left-20">
+          <div className="absolute lg:top-20 lg:left-20">
             <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
               <span className="text-[#9435ae] font-bold">BBDO</span>
             </div>
           </div>
 
-          <div className="absolute top-16 right-32">
+          <div className="absolute lg:top-16 lg:right-32 right-10">
             <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
               <span className="text-[#9435ae] font-bold ">McCANN</span>
             </div>
           </div>
 
-          <div className="absolute top-80 left-32">
+          <div className="absolute top-80 left-32 lg:block hidden">
             <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
               <span className="text-[#9435ae] font-bold">VML & R</span>
             </div>
           </div>
 
-          <div className="absolute top-72 right-20">
+          <div className="absolute top-72 right-20 lg:block hidden">
             <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
               <span className="text-[#9435ae] font-bold">Fahrenheit DDB</span>
             </div>
           </div>
 
-          <div className="absolute  left-1/2 transform -translate-x-1/2">
+          <div className="absolute  left-1/2 transform -translate-x-1/2 lg:block hidden">
             <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
               <span className="text-[#9435ae] font-bold">Havas</span>
+            </div>
+          </div>
+
+          {/* componente responsive */}
+          <div className="absolute mt-[10.5rem] left-1/2 transform -translate-x-1/2 block lg:hidden">
+            <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
+              <span className="text-[#9435ae] font-bold">Havas</span>
+            </div>
+          </div>
+
+          <div className="absolute top-80 left-10 block lg:hidden mt-[2rem]">
+            <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
+              <span className="text-[#9435ae] font-bold">VML & R</span>
+            </div>
+          </div>
+
+          <div className="absolute top-72 right-8 block lg:hidden mt-[5rem]">
+            <div className="bg-white rounded-full px-6 py-3 shadow-lg origin-bottom rotate-12">
+              <span className="text-[#9435ae] font-bold">Fahrenheit DDB</span>
             </div>
           </div>
 
@@ -167,7 +186,7 @@ export default function Component() {
       {/* Bottom Section */}
       <section className="bg-[#fbdcff] py-20">
         <div className="container mx-auto px-4">
-          <div className=" justify-center items-center mb-12 grid grid-cols-6 gap-4">
+          <div className=" justify-center items-center mb-12 grid lg:grid-cols-6 gap-4">
             <div className="col-start-2 col-end-3">
               <div className="bg-[#9435ae] rounded-2xl p-8 w-48 h-64 relative origin-bottom -rotate-12 ">
                 <div className="absolute top-4 right-4 w-3 h-3 bg-green-400 rounded-full"></div>
@@ -341,11 +360,124 @@ export default function Component() {
 
       <section className="bg-[#FBDCFF] py-20">
         <div className="container mx-auto px-4">
-
           <div className="w-[100%] flex justify-center">
             <h4 className="text-[70px] font-semibold text-[#9435AE]">
               Sub Heading
             </h4>
+          </div>
+
+          <div className="flex justify-center mt-[140px]">
+            <div className="grid grid-cols-4 gap-4">
+              <div className="w-[259px] h-[205px] bg-[#DCC1FF] rounded-lg">
+                <div className="w-[100%] h-[140px] border rounded-lg border-black">
+                  <div className="m-4">
+                    <p>“Comments in here”</p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-start mt-[15px]">
+                  <i className="w-[30px] h-[30px] bg-white rounded-[100%] mr-[15px] ml-[15px]">
+                    <img src="" alt="" />
+                  </i>
+                  <p>Tag in here</p>
+                </div>
+              </div>
+
+              <div className="w-[259px] h-[205px] bg-[#DCC1FF] rounded-lg">
+                <div className="w-[100%] h-[140px] border rounded-lg border-black">
+                  <div className="m-4">
+                    <p>“Comments in here”</p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-start mt-[15px]">
+                  <i className="w-[30px] h-[30px] bg-white rounded-[100%] mr-[15px] ml-[15px]">
+                    <img src="" alt="" />
+                  </i>
+                  <p>Tag in here</p>
+                </div>
+              </div>
+
+              <div className="w-[259px] h-[205px] bg-[#DCC1FF] rounded-lg">
+                <div className="w-[100%] h-[140px] border rounded-lg border-black">
+                  <div className="m-4">
+                    <p>“Comments in here”</p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-start mt-[15px]">
+                  <i className="w-[30px] h-[30px] bg-white rounded-[100%] mr-[15px] ml-[15px]">
+                    <img src="" alt="" />
+                  </i>
+                  <p>Tag in here</p>
+                </div>
+              </div>
+
+              <div className="w-[259px] h-[205px] bg-[#DCC1FF] rounded-lg">
+                <div className="w-[100%] h-[140px] border rounded-lg border-black">
+                  <div className="m-4">
+                    <p>“Comments in here”</p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-start mt-[15px]">
+                  <i className="w-[30px] h-[30px] bg-white rounded-[100%] mr-[15px] ml-[15px]">
+                    <img src="" alt="" />
+                  </i>
+                  <p>Tag in here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*Last section*/}
+
+      <section className="bg-[#E79FFC] py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-2 m-8">
+            <div className="flex flex-col">
+              <h4
+                className="text-[#9435AE] text-[70px] font-bold
+"
+              >
+                Sé parte de la comunidad de creativos
+              </h4>
+              <p className="text-[#9435AE] text-[35px]">
+                Conoce a +1000 creativos en todo latam y participa de los
+                eventos de Nurlead.
+              </p>
+
+              <div className=" grid grid-cols-2 gap-4 mt-[43px]">
+                <input
+                  className="bg-white rounded-full w-[100%] h-[50px]"
+                  type="text"
+                />
+
+                <input
+                  className="bg-white rounded-full w-[100%] h-[50px]"
+                  type="text"
+                />
+              </div>
+
+              <div className="mt-[43px]">
+                <input
+                  className="bg-white rounded-full w-[100%] h-[50px]"
+                  type="text"
+                  name=""
+                  id=""
+                />
+              </div>
+
+              <div className="mt-[58px]">
+                <button className="bg-[#9435AE] w-[370px] h-[60px] rounded-full">
+                  <a href="" className="text-[22px] text-[#F3DBF5]">
+                    Comienza tu camino
+                  </a>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex justify-center items-center ">
+              <div className="w-[451px] h-[475px] bg-[#DCC1FF] rounded-xl"></div>
+            </div>
           </div>
         </div>
       </section>
